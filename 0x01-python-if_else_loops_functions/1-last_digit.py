@@ -5,10 +5,10 @@ if number < 0:
     lastd = number % -10
 else:
     lastd = number % 10
-    print(f"Last digit of {number} is ")
+print('Last digit of {} is '.format(number), end="")
 if lastd > 5:
-    print(f"{lastd} and is greater than 5")
+    print('{} and is greater than 5'.format(lastd))
 elif lastd == 0:
-    print(f"{lastd} and is 0")
+    print('{} and is 0'.format(lastd))
 elif lastd < 6 and lastd != 0:
-    print(f"{lastd} and is less than 6 and not 0")
+    print('{} and is less than 6 and not 0'.format(lastd))
